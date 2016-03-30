@@ -104,13 +104,13 @@ namespace PhoneBook
                     case 4:
                         {
                             phoneList.Sort((con1, con2) => con1.FirstName.CompareTo(con2.FirstName));
-                            Console.WriteLine("PhoneBook have been sorted by FirstName");
+                            Console.WriteLine("PhoneBook has been sorted by FirstName");
                             break;
                         }
                     case 5:
                         {
                             phoneList.Sort((con1, con2) => con1.LastName.CompareTo(con2.LastName));
-                            Console.WriteLine("PhoneBook have been sorted by LastName");
+                            Console.WriteLine("PhoneBook has been sorted by LastName");
                             break;
                         }
                     case 6:
