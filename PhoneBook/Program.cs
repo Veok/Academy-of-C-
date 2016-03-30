@@ -132,12 +132,11 @@ namespace PhoneBook
                     case 7:
                         {
                             quit = true;
-
                             break;
                         }
                     default:
                         {
-                            Console.WriteLine("\nYou've entered invalid character. Please enter an a number from 1 to 4.");
+                            Console.WriteLine("\nYou've entered invalid character. Please enter an a number from 1 to 7.");
                             continue;
                         }
 
